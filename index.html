@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>HTML/CSS 드롭다운메뉴</title>
+<style type="text/css">
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	ul li{
+		list-style: none;
+	}
+	a {
+		text-decoration: none;
+		color:#333;
+	}
+
+	#menu {
+		font:bold 16px "malgun gothic";
+		width:700px;
+		height:50px;
+		background: #ccc;
+		color:black;
+		line-height: 50px; 
+		margin:0 auto;
+		text-align: center;
+	}
+
+	#menu > ul > li {
+		float:left;
+		width:140px;
+		position:relative;
+	}
+	#menu > ul > li > ul {
+		width:130px;
+		display:none;
+		position: absolute;
+		font-size:14px;
+		background: skyblue;
+	}
+	#menu > ul > li:hover > ul {
+		display:block;
+		
+	}
+	#menu > ul > li > ul > li:hover {
+		background: orange;
+		transition: ease 1s;
+		}
+	</style>
+	<link rel="stylesheet" href="./css/reset.css" />
+   	<link rel="stylesheet" href="./css/style.css" />
+	
+</head>
+<body>
+<img src="./images/그림1.png" alt="#" />
+<div id="wrap">
+       <p class="go">홈으로               사이트맵</p>
+      	
+      <h1><img src="./images/그림3.png" alt="#" /></h1>
+       <div id="wrapper">
+       
+<div id="menu">
+	<ul>
+		<li><a href="#">교회소개</a>
+			<ul>
+				<li>
+					<a href="#">섬기는 이들</a><br />
+				</li>
+				<li><a href="#">예배 시간</a><br /></li>
+				<li><a href="#">주보</a><br /></li>
+				<li><a href="#">오시는 길</a></li>
+			</ul>
+		</li>
+		<li><a href="#">예배와 말씀</a>
+			<ul>
+				<li><a href="#">주일 오전</a><br /></li>
+				<li><a href="#">주일 오후</a></li>
+				<li><a href="#">수요 예배</a></li>
+				<li><a href="#">금요 예배</a></li>
+				<li><a href="#">새벽 기도</a></li>
+				<li><a href="#">기타 설교</a></li>
+			</ul>
+		</li>
+		<li><a href="#">교육부</a>
+			<ul>
+				<li><a href="#">영아부</a></li>
+				<li><a href="#">유치부</a></li>
+				<li><a href="#">유년부</a></li>
+				<li><a href="#">초등부</a></li>
+				<li><a href="#">중등부</a></li>
+				<li><a href="#">고등부</a></li>
+				<li><a href="#">청년부</a></li>
+			</ul>
+		</li>
+		<li><a href="#">이단 구별</a>
+			<ul>
+				<li><a href="#">이단 대처</a></li>
+				<li><a href="#">언론(뉴스)</a></li>
+			</ul>
+		</li>
+		<li><a href="#">그리스도의 삶</a>
+			<ul>
+				<li><a href="#">훈련</a></li>
+				
+			</ul>
+		</li>
+	</ul>
+</div>
+</body>
+</html>
