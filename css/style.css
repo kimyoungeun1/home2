@@ -7,7 +7,7 @@
 #wrapper {
   background-color: #fff;
 
-  position: relative;
+  position: right;
 }
 
 #nav {
@@ -89,6 +89,7 @@
 p.go{text-align:right; 
 	background-color: #F6F6F6;
 }
+
 h1{text-align: center;}
 
 *{padding:0;margin:0}
@@ -129,7 +130,7 @@ main>section.visual{
    height: 2500px;
    background-color: #c4ddf3;
    background-image: url("./../images/그림3.jpg");  
-   background-position: left;
+   background-position: right;
    background-repeat: no-repeat;
 }
 
@@ -147,6 +148,7 @@ p.go{text-align:right;
 	background-color: #F6F6F6;
 }
 h1{text-align: center;}
+h2{text-align: right;}
 
 
 *{padding:0;margin:0}
@@ -187,7 +189,7 @@ main>section.visual{
    height: 2500px;
    background-color: #c4ddf3;
    background-image: url("./../images/그림3.jpg");  
-   background-position: left;
+   background-position: right;
    background-repeat: no-repeat;
 }
 
